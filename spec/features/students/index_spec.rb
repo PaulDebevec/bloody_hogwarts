@@ -11,5 +11,5 @@ RSpec.describe "When I visit /students " do
   expect(page).to have_content(student.name)
   expect(page).to have_content(student.age)
   expect(page).to have_content(student.house)
-end
+  end
 end
